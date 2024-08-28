@@ -77,12 +77,12 @@ namespace func
     }
 
     /**
-     * * Eleminates every occurenced character from the string
+     * * Eliminates every occurenced character in the string
      * @param std::string_view String to search in
      * @param char Delimiter
      * @return Filtered string
      */
-    std::string eleminate(const std::string_view victim, char delimiter);
+    std::string eliminate(const std::string_view victim, char delimiter);
     
     /**
      * * Prints all array's elements in one line with separating

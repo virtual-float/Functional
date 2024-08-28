@@ -1,6 +1,6 @@
 #include "functional.h"
 
-std::string func::eleminate(const std::string_view victim, char delimiter) {
+std::string func::eliminate(const std::string_view victim, char delimiter) {
     std::stringstream ss;
 
     // Iterate

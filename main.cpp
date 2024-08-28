@@ -25,7 +25,7 @@ int main()
         std::cout << "List: not all true!" << std::endl;
     }
 
-    std::cout << func::eleminate("A bc defghi j klmnop qrst uvwxy z", ' ') << std::endl;
+    std::cout << func::eliminate("A bc defghi j klmnop qrst uvwxy z", ' ') << std::endl;
     
     // Vector
     std::cout << func::print_array(values, values.begin(), values.end()) << std::endl;
